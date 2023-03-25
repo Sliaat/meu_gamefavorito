@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, a {
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000000;
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 44%;
+    height: auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+    section h2 {
+        margin-bottom: 16px;
+    }
+
+    section p {
+        margin-bottom: 8px;
+    }
+
+    section img {
+        margin-right: 32px;
+    }
+
+    .plataforma {
+        overflow: hidden;
+    }
+
+    .brands-list img {
+        width: 4%;
+        height: auto;
+    }
+
+    .brands-list li {
+        display: inline;
+    }
+
+    footer {
+        background-color: #000000;
+    }
+
+    footer p {
+        color: white;
+        padding: 16px 0;
+    }
